@@ -1,13 +1,12 @@
-# heuristic-algorithms
-Heuristic Algorithms
+ # Heuristic Algorithms
 
 This repository contains Python implementations of three popular heuristic optimization 
 algorithms: Ant Colony Optimization (ACO), Particle Swarm Optimization (PSO), and Dolphin 
 Echolocation.
 
-Ant Colony Optimization (ACO)
+## Ant Colony Optimization (ACO)
 
-Ant Colony Optimization (ACO) is a heuristic optimization algorithm that is inspired by the 
+ Ant Colony Optimization (ACO) is a heuristic optimization algorithm that is inspired by the 
 behavior of ants in nature. It is used to find approximate solutions to complex optimization 
 problems.
 
@@ -22,7 +21,7 @@ ants with random starting positions, and then iteratively updates their position
 pheromone levels on the paths between the positions. The pheromone levels can be updated based on 
 the quality of the solutions found by the ants.
 
-Particle Swarm Optimization (PSO)
+## Particle Swarm Optimization (PSO)
 
 Particle Swarm Optimization (PSO) is a heuristic optimization algorithm that is inspired by the 
 behavior of social animals, such as birds and fish. It is used to find approximate solutions to 
@@ -39,7 +38,7 @@ velocities based on the global best position and random perturbations. The posit
 velocities of the particles can be updated using equations that incorporate the particles' own 
 best positions, the global best position, and random perturbations.
 
-Dolphin Echolocation
+## Dolphin Echolocation
 
 Dolphin echolocation is a process that dolphins use to locate objects and navigate through their 
 environment. They produce high-frequency sounds and listen for the echoes that bounce back when 
@@ -51,5 +50,4 @@ to simulate the process of echolocation in Python by defining a function that ca
 it takes for a sound to travel to an object and back, and uses that time to estimate the distance 
 to the object and the position of the object.
 
-This repository was created by Emre Tufekci for the Heuristic Algorithms course at Istanbul 
-Cerrahpasa University, taught by Assoc. Prof. Emel Arslan.
+### This repository was created by Emre Tufekci for the Heuristic Algorithms course at Istanbul Cerrahpasa University, taught by Assoc. Prof. Emel Arslan.
